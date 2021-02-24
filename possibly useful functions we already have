@@ -1,0 +1,5 @@
+functions checking if the number/placement of commas is correct
+deleting excess whitespaces (adjustable)
+function checking if a string is a number (can be used in atoi or atof)
+reusing the code looking for commands in mmn22 for the project
+reusing the code checking for valid matrices to check for registers (at least Eitan's is specifically for matrices)
