@@ -4,6 +4,8 @@
 
 #endif // ASSMEBLER
 =======
+
+#define NAME_MAX 1000
 enum label_state {DATA, CODE, EXTERN, ENTRY}
 
 struct label{
