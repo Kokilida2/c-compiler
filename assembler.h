@@ -6,11 +6,13 @@
 =======
 
 #define NAME_MAX 1000
-enum label_state {DATA, CODE, EXTERN, ENTRY}
+enum label_state {DATA, CODE, EXTERN};
+enum special_state {NONE, ENTRY, EXTERN};
 
 struct label{
   char* name;
   enum label_state state;
+  enum special_state special;
   word address;
 };
 
