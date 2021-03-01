@@ -16,8 +16,21 @@ struct label{
   word address;
 };
 
+struct opWord {
+    char dest : 2;
+    char src : 2;
+    char func : 4;
+    char opCode : 4;
+};
+
+union convert {
+    struct opWord a;
+    struct word b;
+};
+
+
 struct word 
 {
-  int value:12;
+  unsigned int value:12;
 };
 >>>>>>> 240d2ced659552ed4251ac1822f97d4b593aaa6a
