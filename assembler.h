@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 #ifndef ASSEMBLER
 #define ASSEMBLER
 
-#endif // ASSMEBLER
-=======
+
 enum label_state {DATA, CODE, EXTERN, ENTRY}
 
 struct label{
@@ -16,4 +14,8 @@ struct word
 {
   int value:12;
 };
->>>>>>> 240d2ced659552ed4251ac1822f97d4b593aaa6a
+
+
+
+
+#endif // ASSEMBLER
